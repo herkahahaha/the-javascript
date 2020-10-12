@@ -2,6 +2,14 @@
     background-color: black !important;
 }
 
-.todo li {
+.container {
+    max-width: 400px;
+}
+
+.lists li {
     border-color: aliceblue !important;
+}
+
+.btn {
+    cursor: pointer;
 }
