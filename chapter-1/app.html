@@ -3,12 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>App</title>
   </head>
   <body>
     <div class="container">
-      <div class="todos"></div>
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo List</h1>
+        <form class="search">
+          <input
+            class="form-control text-light m-auto"
+            name="search"
+            type="text"
+            placeholder="Search Todos"
+          />
+        </form>
+      </header>
+
+      <!-- list todo -->
+      <ul class="todo list-group mx-auto text-light">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Add Todos</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Delete Todo</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Search Todo</span>
+        </li>
+      </ul>
+
+      <!-- add todo -->
+      <form class="add text-center my-4">
+        <label class="text-light">Add New Todo..</label>
+        <input class="form-control text-light m-auto" name="add" type="text" />
+      </form>
     </div>
+
+    <script src="server.js"></script>
   </body>
-  <script src="./server.js"></script>
 </html>
