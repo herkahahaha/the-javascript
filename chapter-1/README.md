@@ -10,6 +10,8 @@ membuat html statik menjadi interaktif menggunakan DOM Javascript
 
 Berikut ini adalah salah satu contoh penerapan javascript dasar dalam pembuatan aplikasi sederhana, masih banyak metode lain yang mungkin lebih efektif.
 
+![Banner](./assets/todos.jpg)
+
 #### Langkah Awal
 
 - inisialisasi komponen yang memiliki `class` yang ada di HTML kedalam file js menggunakan `document.querySelector()`
