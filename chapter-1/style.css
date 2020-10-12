@@ -13,3 +13,7 @@
 .btn {
     cursor: pointer;
 }
+
+.filtered {
+    display: none !important;
+}
