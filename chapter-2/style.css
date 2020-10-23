@@ -1,0 +1,38 @@
+form {
+    max-width: 400px;
+    padding: 1rem;
+    margin: 50px auto;
+    border: solid #adf012;
+
+}
+.container {
+    margin: 2px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container input[type=text] {
+    width: 10%;
+    border: solid;
+    padding: 2px;
+
+}
+.container input[type=text]:focus {
+
+    border: solid #f4f4f4;
+ 
+
+}
+
+.sbm-btn {
+    width: 100%;
+    margin: 2px;
+    padding: 3px;
+    background-color: #cc1bbd;
+    color: #fff0fa;
+    display: inline-block;
+    border:none;
+    border-radius: 3px;
+}
